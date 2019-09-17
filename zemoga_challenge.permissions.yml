@@ -1,0 +1,4 @@
+administer zemoga_challenge configuration:
+  title: 'Administer zemoga_challenge configuration'
+  description: 'Optional description.'
+  restrict access: true

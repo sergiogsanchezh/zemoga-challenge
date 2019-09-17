@@ -1,0 +1,7 @@
+services:
+  zemoga_challenge.formbehaviors:
+    class: Drupal\zemoga_challenge\Service\FormBehaviors
+    arguments: ['@entity_type.manager', '@entity.query']
+  zemoga_challenge.entitytools:
+    class: Drupal\zemoga_challenge\Service\EntityTools
+    arguments: ['@entity_type.manager', '@entity.query']

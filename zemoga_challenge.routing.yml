@@ -1,0 +1,15 @@
+zemoga_challenge.home:
+  path: '/zemoga-challenge'
+  defaults:
+    _title: 'Challenge multi step form'
+    _form: '\Drupal\zemoga_challenge\Form\MultiStepForm'
+  requirements:
+    _permission: 'access content'
+
+zemoga_challenge.settings_form:
+  path: '/admin/config/system/zemoga-challenge'
+  defaults:
+    _title: 'zemoga_challenge settings'
+    _form: 'Drupal\zemoga_challenge\Form\SettingsForm'
+  requirements:
+    _permission: 'administer zemoga_challenge configuration'

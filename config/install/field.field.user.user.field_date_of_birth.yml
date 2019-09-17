@@ -1,0 +1,22 @@
+uuid: 24a1c68b-3394-4574-acef-8aca228a0cde
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_date_of_birth
+  module:
+    - user
+id: user.user.field_date_of_birth
+field_name: field_date_of_birth
+entity_type: user
+bundle: user
+label: 'Date of Birth'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 1568694994
+default_value_callback: ''
+settings: {  }
+field_type: timestamp
