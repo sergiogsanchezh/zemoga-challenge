@@ -25,7 +25,7 @@ class StepThreeFinishButton extends BaseButton {
     return [
       '#type' => 'submit',
       '#value' => t('Finish!'),
-      '#goto_step' => FormBehaviors::STEP_FINALIZE,
+      '#goto_step' => FormBehaviors::STEP_ONE,
       '#submit_handler' => 'submitValues',
     ];
   }
